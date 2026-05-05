@@ -1,37 +1,40 @@
 {
-  "loc": 10393,
-  "tests": 179,
-  "testFiles": 12,
-  "commits": 97,
+  "loc": 14864,
+  "tests": 354,
+  "testFiles": 22,
+  "commits": 110,
   "contributors": 2,
   "firstCommit": "2026-03-07",
   "languages": [
     {
-      "name": "Python",
-      "bytes": 238711,
-      "percent": 51
+      "name": "TypeScript",
+      "bytes": 290124,
+      "percent": 43
     },
     {
-      "name": "TypeScript",
-      "bytes": 145721,
-      "percent": 31
+      "name": "Python",
+      "bytes": 283847,
+      "percent": 42
     },
     {
       "name": "HTML",
-      "bytes": 77778,
-      "percent": 16
+      "bytes": 90224,
+      "percent": 13
     }
   ],
   "fixes": {
-    "count": 24
+    "count": 26
+  },
+  "linesRefactored": {
+    "count": 1427
   },
   "prs": {
-    "merged": 42
+    "merged": 48
   },
   "repo": "Jason-Vaughan/Notse",
   "branch": "main",
   "source": "git",
   "private": true,
   "archived": false,
-  "updatedAt": "2026-05-04T22:48:43.810Z"
+  "updatedAt": "2026-05-05T03:59:28.141Z"
 }

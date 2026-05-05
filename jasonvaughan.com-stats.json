@@ -1,27 +1,30 @@
 {
-  "loc": 2448,
+  "loc": 2513,
   "tests": 15,
   "testFiles": 2,
-  "commits": 54,
+  "commits": 55,
   "contributors": 3,
   "firstCommit": "2025-10-01",
   "languages": [
     {
       "name": "JavaScript",
-      "bytes": 77381,
+      "bytes": 80153,
       "percent": 97
     }
   ],
   "fixes": {
     "count": 4
   },
+  "linesRefactored": {
+    "count": 389
+  },
   "prs": {
-    "merged": 12
+    "merged": 13
   },
   "repo": "Jason-Vaughan/jasonvaughan.com",
   "branch": "main",
   "source": "git",
   "private": false,
   "archived": false,
-  "updatedAt": "2026-05-04T22:49:00.733Z"
+  "updatedAt": "2026-05-05T03:59:26.890Z"
 }
