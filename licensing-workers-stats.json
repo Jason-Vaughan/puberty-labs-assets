@@ -1,0 +1,30 @@
+{
+  "loc": 224,
+  "tests": 0,
+  "testFiles": 0,
+  "commits": 1,
+  "contributors": 1,
+  "firstCommit": "2026-05-05",
+  "languages": [
+    {
+      "name": "JavaScript",
+      "bytes": 7728,
+      "percent": 100
+    }
+  ],
+  "fixes": {
+    "count": 0
+  },
+  "linesRefactored": {
+    "count": 0
+  },
+  "prs": {
+    "merged": 0
+  },
+  "repo": "Jason-Vaughan/licensing-workers",
+  "branch": "main",
+  "source": "git",
+  "private": true,
+  "archived": false,
+  "updatedAt": "2026-05-05T22:46:31.361Z"
+}
