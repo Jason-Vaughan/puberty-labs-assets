@@ -1,5 +1,5 @@
 {
-  "runStartedAt": "2026-05-08T07:43:32.893Z",
+  "runStartedAt": "2026-05-08T09:22:47.259Z",
   "owner": "Jason-Vaughan",
   "discoveredCount": 24,
   "eligibleCount": 17,
@@ -48,7 +48,7 @@
         "source": "git",
         "private": true,
         "archived": false,
-        "updatedAt": "2026-05-08T07:43:34.795Z"
+        "updatedAt": "2026-05-08T09:22:48.606Z"
       }
     },
     "uci": {
@@ -85,7 +85,7 @@
         "source": "git",
         "private": true,
         "archived": false,
-        "updatedAt": "2026-05-08T07:43:36.425Z"
+        "updatedAt": "2026-05-08T09:22:49.706Z"
       }
     },
     "medusa": {
@@ -127,7 +127,7 @@
         "source": "git",
         "private": false,
         "archived": false,
-        "updatedAt": "2026-05-08T07:43:37.991Z"
+        "updatedAt": "2026-05-08T09:22:50.683Z"
       }
     },
     "notse-releases": {
@@ -158,7 +158,7 @@
         "source": "git",
         "private": false,
         "archived": false,
-        "updatedAt": "2026-05-08T07:43:38.953Z"
+        "updatedAt": "2026-05-08T09:22:51.295Z"
       }
     },
     "jasonvaughan.com": {
@@ -200,7 +200,7 @@
         "source": "git",
         "private": false,
         "archived": false,
-        "updatedAt": "2026-05-08T07:43:40.898Z"
+        "updatedAt": "2026-05-08T09:22:52.895Z"
       }
     },
     "tangleclaw": {
@@ -240,7 +240,7 @@
         "source": "git",
         "private": false,
         "archived": false,
-        "updatedAt": "2026-05-08T07:43:42.789Z"
+        "updatedAt": "2026-05-08T09:22:54.602Z"
       }
     },
     "licensing-workers": {
@@ -277,7 +277,7 @@
         "source": "git",
         "private": true,
         "archived": false,
-        "updatedAt": "2026-05-08T07:43:43.992Z"
+        "updatedAt": "2026-05-08T09:22:55.404Z"
       }
     },
     "tilt": {
@@ -315,7 +315,7 @@
         "source": "git",
         "private": true,
         "archived": false,
-        "updatedAt": "2026-05-08T07:43:54.694Z"
+        "updatedAt": "2026-05-08T09:23:05.096Z"
       }
     },
     "rentalclaw-project": {
@@ -362,7 +362,7 @@
         "source": "git",
         "private": true,
         "archived": false,
-        "updatedAt": "2026-05-08T07:43:56.211Z"
+        "updatedAt": "2026-05-08T09:23:06.151Z"
       }
     },
     "scrapegoat": {
@@ -404,7 +404,7 @@
         "source": "git",
         "private": false,
         "archived": false,
-        "updatedAt": "2026-05-08T07:43:57.276Z"
+        "updatedAt": "2026-05-08T09:23:07.034Z"
       }
     },
     "porthub": {
@@ -446,7 +446,7 @@
         "source": "git",
         "private": false,
         "archived": false,
-        "updatedAt": "2026-05-08T07:43:58.647Z"
+        "updatedAt": "2026-05-08T09:23:08.029Z"
       }
     },
     "clawbridge": {
@@ -483,7 +483,7 @@
         "source": "git",
         "private": false,
         "archived": false,
-        "updatedAt": "2026-05-08T07:43:59.811Z"
+        "updatedAt": "2026-05-08T09:23:08.858Z"
       }
     },
     "ondeck": {
@@ -530,7 +530,7 @@
         "source": "git",
         "private": true,
         "archived": false,
-        "updatedAt": "2026-05-08T07:44:02.841Z"
+        "updatedAt": "2026-05-08T09:23:11.229Z"
       }
     },
     "refuctor": {
@@ -572,7 +572,7 @@
         "source": "git",
         "private": false,
         "archived": true,
-        "updatedAt": "2026-05-08T07:44:06.997Z"
+        "updatedAt": "2026-05-08T09:23:14.216Z"
       }
     },
     "tilt-showcase": {
@@ -603,7 +603,7 @@
         "source": "git",
         "private": false,
         "archived": false,
-        "updatedAt": "2026-05-08T07:44:07.954Z"
+        "updatedAt": "2026-05-08T09:23:14.784Z"
       }
     },
     "clits": {
@@ -645,7 +645,7 @@
         "source": "git",
         "private": false,
         "archived": true,
-        "updatedAt": "2026-05-08T07:44:09.354Z"
+        "updatedAt": "2026-05-08T09:23:15.674Z"
       }
     },
     "cierre-sensei": {
@@ -661,7 +661,7 @@
         "commits": 94,
         "contributors": 1,
         "firstCommit": "2024-09-01",
-        "updatedAt": "2026-05-08T07:44:10.112Z",
+        "updatedAt": "2026-05-08T09:23:16.442Z",
         "repo": "Jason-Vaughan/cierre-sensei",
         "branch": null,
         "source": "remote",
@@ -672,15 +672,15 @@
     }
   },
   "aggregateTokens": {
-    "total": 9290932738,
+    "total": 9290935003,
     "verified": 24580236,
     "agent": 1847207950,
     "manual": 7416899866,
-    "prorated": 2244686,
+    "prorated": 2246951,
     "breakdown": {
       "anthropic": 1907207950,
       "openai": 59580236,
-      "copilot": 2244686,
+      "copilot": 2246951,
       "cursor": 7016899866,
       "gemini": 305000000
     },
@@ -707,7 +707,7 @@
         "fetchedAt": "2026-04-28T00:16:25Z"
       }
     },
-    "fetchedAt": "2026-05-08T07:44:35.758Z"
+    "fetchedAt": "2026-05-08T09:23:50.915Z"
   },
   "aggregateFixes": {
     "count": 317
@@ -718,6 +718,6 @@
   "aggregateRefactored": {
     "count": 94697
   },
-  "runFinishedAt": "2026-05-08T07:44:35.840Z",
+  "runFinishedAt": "2026-05-08T09:23:50.989Z",
   "okCount": 17
 }
