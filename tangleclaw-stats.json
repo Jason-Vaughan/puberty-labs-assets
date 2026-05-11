@@ -1,17 +1,17 @@
 {
-  "loc": 45220,
-  "tests": 1796,
-  "testFiles": 66,
-  "commits": 203,
+  "loc": 46562,
+  "tests": 1860,
+  "testFiles": 68,
+  "commits": 205,
   "contributors": 3,
   "firstCommit": "2026-03-11",
   "engines": 3,
-  "routes": 351,
+  "routes": 355,
   "npmDeps": 0,
   "languages": [
     {
       "name": "JavaScript",
-      "bytes": 1583990,
+      "bytes": 1640173,
       "percent": 93
     }
   ],
@@ -19,15 +19,15 @@
     "count": 33
   },
   "linesRefactored": {
-    "count": 2698
+    "count": 2702
   },
   "prs": {
-    "merged": 66
+    "merged": 68
   },
   "repo": "Jason-Vaughan/TangleClaw",
   "branch": "main",
   "source": "git",
   "private": false,
   "archived": false,
-  "updatedAt": "2026-05-10T23:53:20.207Z"
+  "updatedAt": "2026-05-11T03:36:17.046Z"
 }
