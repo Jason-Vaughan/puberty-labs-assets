@@ -1,14 +1,14 @@
 {
-  "loc": 17902,
-  "tests": 452,
+  "loc": 18134,
+  "tests": 461,
   "testFiles": 26,
-  "commits": 136,
+  "commits": 137,
   "contributors": 2,
   "firstCommit": "2026-03-07",
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 407386,
+      "bytes": 417775,
       "percent": 46
     },
     {
@@ -23,18 +23,18 @@
     }
   ],
   "fixes": {
-    "count": 28
+    "count": 29
   },
   "linesRefactored": {
-    "count": 1562
+    "count": 1568
   },
   "prs": {
-    "merged": 63
+    "merged": 64
   },
   "repo": "Jason-Vaughan/Notse",
   "branch": "main",
   "source": "git",
   "private": true,
   "archived": false,
-  "updatedAt": "2026-05-11T03:36:18.216Z"
+  "updatedAt": "2026-05-11T07:42:01.936Z"
 }
