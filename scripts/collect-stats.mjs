@@ -280,6 +280,9 @@ async function main() {
   // doesn't poison the headline number; per-repo `null` is preserved separately
   // for debugging.
   if (!onlyRepo) {
+    let aggLoc = 0;
+    let aggCommits = 0;
+    let aggTests = 0;
     let aggFixes = 0;
     let aggPRs = 0;
     let aggRefactored = 0;
@@ -290,6 +293,9 @@ async function main() {
       const p = meta.projects[slug];
       if (!p.ok || !p.stats) continue;
       repoCount++;
+      aggLoc += p.stats.loc || 0;
+      aggCommits += p.stats.commits || 0;
+      aggTests += p.stats.tests || 0;
       aggFixes += p.stats.fixes?.count || 0;
       aggRefactored += p.stats.linesRefactored?.count || 0;
       // Track null PR counts separately so we can warn when the PAT scope is
@@ -304,6 +310,50 @@ async function main() {
     meta.aggregateFixes = { count: aggFixes };
     meta.aggregatePRs = { merged: aggPRs };
     meta.aggregateRefactored = { count: aggRefactored };
+
+    // 7-day deltas — read the manifest from ~7 days ago via git history and
+    // diff every aggregate. If the lookup fails (fresh repo, first run, etc.)
+    // we skip the deltas — frontend handles the missing field gracefully.
+    try {
+      const oldSha = execSync(
+        `git log --before='7 days ago' -n 1 --format='%H' -- _collect-meta.json`,
+        { cwd: REPO_ROOT, encoding: 'utf8' },
+      ).trim();
+      if (oldSha) {
+        const oldRaw = execSync(`git show ${oldSha}:_collect-meta.json`, {
+          cwd: REPO_ROOT, encoding: 'utf8',
+        });
+        const oldMeta = JSON.parse(oldRaw);
+        let oldLoc = 0, oldCommits = 0, oldTests = 0;
+        for (const p of Object.values(oldMeta.projects || {})) {
+          if (!p.ok || !p.stats) continue;
+          oldLoc += p.stats.loc || 0;
+          oldCommits += p.stats.commits || 0;
+          oldTests += p.stats.tests || 0;
+        }
+        meta.aggregateDeltas = {
+          windowDays: 7,
+          fromSha: oldSha,
+          loc: aggLoc - oldLoc,
+          commits: aggCommits - oldCommits,
+          tests: aggTests - oldTests,
+          fixes: aggFixes - ((oldMeta.aggregateFixes || {}).count || 0),
+          prs: aggPRs - ((oldMeta.aggregatePRs || {}).merged || 0),
+          refactored: aggRefactored - ((oldMeta.aggregateRefactored || {}).count || 0),
+        };
+        console.log(
+          `Deltas (7d): loc=${meta.aggregateDeltas.loc.toLocaleString()} ` +
+          `commits=${meta.aggregateDeltas.commits} tests=${meta.aggregateDeltas.tests} ` +
+          `fixes=${meta.aggregateDeltas.fixes} prs=${meta.aggregateDeltas.prs} ` +
+          `refactored=${meta.aggregateDeltas.refactored.toLocaleString()}`,
+        );
+      } else {
+        console.log('No manifest history older than 7 days — skipping aggregateDeltas.');
+      }
+    } catch (err) {
+      console.warn(`[deltas] Could not compute 7-day deltas: ${err.message}`);
+    }
+
     console.log(
       `Aggregates: fixes=${aggFixes.toLocaleString()} merged-PRs=${aggPRs.toLocaleString()} ` +
         `lines-refactored=${aggRefactored.toLocaleString()} ` +
