@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T00:02:09Z",
+  "updatedAt": "2026-05-18T00:03:55Z",
   "hardware": {
     "gpu": "NVIDIA RTX PRO 6000 Blackwell",
     "vram": "96 GiB",
@@ -12,7 +12,8 @@
   "stack": [
     "Ollama 0.24.0",
     "Tailscale (tailnet-bound)",
-    "Ubuntu 24.04.4 LTS"
+    "Ubuntu 24.04.4 LTS",
+    "NVIDIA driver 595.58.03"
   ],
   "uptime": {
     "daysOnline": 1,
@@ -21,7 +22,7 @@
   "gpu": {
     "temp": 30,
     "utilization": 0,
-    "powerDraw": 7
+    "powerDraw": 10
   },
   "tokens": {
     "total": null,
