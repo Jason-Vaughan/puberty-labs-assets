@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T00:19:59Z",
+  "updatedAt": "2026-05-18T00:47:46Z",
   "hardware": {
     "gpu": "NVIDIA RTX PRO 6000 Blackwell",
     "vram": "96 GiB",
@@ -7,7 +7,9 @@
     "ram": "251 GiB"
   },
   "currentModel": {
-    "size": "67 GB"
+    "size": "67 GB",
+    "name": "Qwen2.5-Coder 32B",
+    "precision": "FP16"
   },
   "stack": [
     "Ollama 0.24.0",
