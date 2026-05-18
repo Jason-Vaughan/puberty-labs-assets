@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T00:03:55Z",
+  "updatedAt": "2026-05-18T00:04:00Z",
   "hardware": {
     "gpu": "NVIDIA RTX PRO 6000 Blackwell",
     "vram": "96 GiB",
@@ -21,7 +21,7 @@
   },
   "gpu": {
     "temp": 30,
-    "utilization": 0,
+    "utilization": 1,
     "powerDraw": 10
   },
   "tokens": {
