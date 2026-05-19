@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T02:53:02Z",
+  "updatedAt": "2026-05-19T03:53:04Z",
   "hardware": {
     "gpu": "NVIDIA RTX PRO 6000 Blackwell",
     "vram": "96 GiB",
@@ -7,7 +7,7 @@
     "ram": "251 GiB"
   },
   "currentModel": {
-    "size": "65 GB",
+    "size": "75 GB",
     "name": "Qwen2.5-Coder 32B",
     "precision": "FP16"
   },
@@ -22,20 +22,20 @@
     "lastReboot": "2026-05-18T22:35:43Z"
   },
   "gpu": {
-    "temp": 30,
+    "temp": 40,
     "utilization": 0,
-    "powerDraw": 10
+    "powerDraw": 20
   },
   "tokens": {
-    "total": 231,
-    "last24h": 231,
-    "last7d": 231
+    "total": 10526,
+    "last24h": 10526,
+    "last7d": 10526
   },
   "costSaved": {
-    "estimated": 0.0008,
+    "estimated": 0.0334,
     "basis": "vs GPT-4o ($2.50/MTok input + $10/MTok output)"
   },
   "throughput": {
-    "tokensPerSec": 6.9
+    "tokensPerSec": 15.2
   }
 }
