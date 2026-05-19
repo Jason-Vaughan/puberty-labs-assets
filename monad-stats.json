@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T20:30:39Z",
+  "updatedAt": "2026-05-19T20:35:28Z",
   "hardware": {
     "gpu": "NVIDIA RTX PRO 6000 Blackwell",
     "vram": "96 GiB",
@@ -7,10 +7,25 @@
     "ram": "251 GiB"
   },
   "currentModel": {
-    "size": "17 GB",
     "name": "Qwen2.5 14B",
-    "precision": "Q4_K_M"
+    "size": "17 GB",
+    "precision": "Q4_K_M",
+    "role": "chat"
   },
+  "currentModels": [
+    {
+      "name": "Qwen2.5 14B",
+      "size": "17 GB",
+      "precision": "Q4_K_M",
+      "role": "chat"
+    },
+    {
+      "name": "Qwen2.5-Coder 32B",
+      "size": "75 GB",
+      "precision": "FP16",
+      "role": "code"
+    }
+  ],
   "stack": [
     "Ollama 0.24.0",
     "Tailscale (tailnet-bound)",
@@ -43,7 +58,21 @@
   },
   "costSaved": {
     "estimated": 0.1823,
-    "basis": "vs GPT-4o ($2.50/MTok input + $10/MTok output)"
+    "basis": "vs cloud comparators per alias (see basisDetail)",
+    "basisDetail": [
+      {
+        "alias": "qwen2.5-coder-32b-fp16",
+        "anchor": "GPT-4o",
+        "input": "$2.50/MTok",
+        "output": "$10/MTok"
+      },
+      {
+        "alias": "qwen2.5-14b-instruct-q4_K_M",
+        "anchor": "GPT-4o mini",
+        "input": "$0.15/MTok",
+        "output": "$0.60/MTok"
+      }
+    ]
   },
   "throughput": {
     "tokensPerSec": 19.5
