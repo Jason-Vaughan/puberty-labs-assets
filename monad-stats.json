@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T03:53:04Z",
+  "updatedAt": "2026-05-19T04:08:04Z",
   "hardware": {
     "gpu": "NVIDIA RTX PRO 6000 Blackwell",
     "vram": "96 GiB",
@@ -22,20 +22,20 @@
     "lastReboot": "2026-05-18T22:35:43Z"
   },
   "gpu": {
-    "temp": 40,
+    "temp": 50,
     "utilization": 0,
-    "powerDraw": 20
+    "powerDraw": 70
   },
   "tokens": {
-    "total": 10526,
-    "last24h": 10526,
-    "last7d": 10526
+    "total": 58821,
+    "last24h": 58821,
+    "last7d": 58821
   },
   "costSaved": {
-    "estimated": 0.0334,
+    "estimated": 0.1817,
     "basis": "vs GPT-4o ($2.50/MTok input + $10/MTok output)"
   },
   "throughput": {
-    "tokensPerSec": 15.2
+    "tokensPerSec": 20.1
   }
 }
