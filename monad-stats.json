@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T18:30:35Z",
+  "updatedAt": "2026-05-19T18:45:36Z",
   "hardware": {
     "gpu": "NVIDIA RTX PRO 6000 Blackwell",
     "vram": "96 GiB",
@@ -7,9 +7,9 @@
     "ram": "251 GiB"
   },
   "currentModel": {
-    "size": "75 GB",
-    "name": "Qwen2.5-Coder 32B",
-    "precision": "FP16"
+    "size": "17 GB",
+    "name": "Qwen2.5 14B",
+    "precision": "Q4_K_M"
   },
   "stack": [
     "Ollama 0.24.0",
@@ -37,15 +37,15 @@
     "powerDraw": 10
   },
   "tokens": {
-    "total": 58821,
-    "last24h": 58821,
-    "last7d": 58821
+    "total": 59066,
+    "last24h": 59066,
+    "last7d": 59066
   },
   "costSaved": {
-    "estimated": 0.1817,
+    "estimated": 0.1823,
     "basis": "vs GPT-4o ($2.50/MTok input + $10/MTok output)"
   },
   "throughput": {
-    "tokensPerSec": 20.1
+    "tokensPerSec": 19.5
   }
 }
