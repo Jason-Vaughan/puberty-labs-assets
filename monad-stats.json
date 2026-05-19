@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T16:23:28Z",
+  "updatedAt": "2026-05-19T16:55:20Z",
   "hardware": {
     "gpu": "NVIDIA RTX PRO 6000 Blackwell",
     "vram": "96 GiB",
@@ -19,7 +19,17 @@
   ],
   "uptime": {
     "daysOnline": 0,
-    "lastReboot": "2026-05-18T22:35:43Z"
+    "lastReboot": "2026-05-18T22:35:43Z",
+    "trackedSince": "2026-05-15T15:08:00Z",
+    "plannedOutages": [
+      {
+        "start": "2026-05-18T22:19:00Z",
+        "end": "2026-05-18T22:46:00Z",
+        "durationSeconds": 1620,
+        "reason": "relocation"
+      }
+    ],
+    "plannedDowntimeSeconds": 1620
   },
   "gpu": {
     "temp": 30,
