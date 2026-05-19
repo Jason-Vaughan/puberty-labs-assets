@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T22:35:32Z",
+  "updatedAt": "2026-05-19T22:50:32Z",
   "hardware": {
     "gpu": "NVIDIA RTX PRO 6000 Blackwell",
     "vram": "96 GiB",
@@ -33,7 +33,7 @@
     "NVIDIA driver 595.58.03"
   ],
   "uptime": {
-    "daysOnline": 0,
+    "daysOnline": 1,
     "lastReboot": "2026-05-18T22:35:43Z",
     "trackedSince": "2026-05-15T15:08:00Z",
     "plannedOutages": [
