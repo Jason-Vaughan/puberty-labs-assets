@@ -1,0 +1,30 @@
+{
+  "loc": 0,
+  "tests": 0,
+  "testFiles": 1,
+  "commits": 3,
+  "contributors": 2,
+  "firstCommit": "2026-05-20",
+  "languages": [
+    {
+      "name": "Shell",
+      "bytes": 13821,
+      "percent": 100
+    }
+  ],
+  "fixes": {
+    "count": 0
+  },
+  "linesRefactored": {
+    "count": 0
+  },
+  "prs": {
+    "merged": 1
+  },
+  "repo": "Jason-Vaughan/WhitePapers",
+  "branch": "main",
+  "source": "git",
+  "private": true,
+  "archived": false,
+  "updatedAt": "2026-05-20T19:25:32.012Z"
+}
