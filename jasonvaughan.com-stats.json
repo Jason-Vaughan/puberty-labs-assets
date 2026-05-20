@@ -2,7 +2,7 @@
   "loc": 4026,
   "tests": 20,
   "testFiles": 2,
-  "commits": 82,
+  "commits": 83,
   "contributors": 3,
   "firstCommit": "2025-10-01",
   "languages": [
@@ -13,7 +13,7 @@
     },
     {
       "name": "HTML",
-      "bytes": 28946,
+      "bytes": 29501,
       "percent": 17
     }
   ],
@@ -24,12 +24,12 @@
     "count": 561
   },
   "prs": {
-    "merged": 37
+    "merged": 38
   },
   "repo": "Jason-Vaughan/jasonvaughan.com",
   "branch": "main",
   "source": "git",
   "private": false,
   "archived": false,
-  "updatedAt": "2026-05-20T13:39:46.128Z"
+  "updatedAt": "2026-05-20T16:52:36.516Z"
 }
